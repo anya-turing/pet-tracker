@@ -4,9 +4,11 @@ import os
 import serial
 from datetime import datetime
 
+username = input("Enter your username: ")
+password = input("Enter your password: ")
+
 try:
-	# Remove the hard coded creds and add a function to capture credentials
-	con = MySQLdb.connect('antur90.us-east-1.rds.amazonaws.com', 'aturing', 'Q91h2^oapsAN', 'tracker')
+	con = MySQLdb.connect('antur90.us-east-1.rds.amazonaws.com', username, password, 'tracker')
 	cur = con.cursor()
 except MySQLdb.Error:
 	print ("Error: ", MySQLdb.Error)
