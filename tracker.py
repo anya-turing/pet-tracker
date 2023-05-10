@@ -4,6 +4,12 @@ import os
 import serial
 from datetime import datetime
 
+print ("""
+		╔═╗┌─┐┌┬┐  ╔╦╗┬─┐┌─┐┌─┐┬┌─┌─┐┬─┐
+		╠═╝├┤  │    ║ ├┬┘├─┤│  ├┴┐├┤ ├┬┘
+		╩  └─┘ ┴    ╩ ┴└─┴ ┴└─┘┴ ┴└─┘┴└─
+""")
+
 username = input("Enter your username: ")
 password = input("Enter your password: ")
 
