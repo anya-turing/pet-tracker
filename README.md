@@ -7,4 +7,5 @@ Hardware required:
 - Coil Antenna
 - 800 mAH battery
 
-
+Some additional requirements:
+- Serial to USB adapter
