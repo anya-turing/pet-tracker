@@ -9,3 +9,5 @@ Hardware required:
 
 Some additional requirements:
 - Serial to USB adapter
+
+*Credits: https://github.com/steveseguin/gps-pet-tracker/tree/master*
